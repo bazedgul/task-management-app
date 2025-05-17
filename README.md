@@ -38,9 +38,9 @@ A professional, fully-featured Task Management Web App built with **React (Vite)
 
 ## 📁 Folder Structure
 
-### 🔙 Backend (`/backend`)
+### 🔙 Backend (`/Backend`)
 
-backend/
+Backend/
 ├── controllers/
 │ └── task.controller.js
 ├── models/
@@ -64,9 +64,9 @@ backend/
 
 ---
 
-### 💻 Frontend (`/frontend`)
+### 💻 Frontend (`/Frontend`)
 
-frontend/
+Frontend/
 ├── src/
 │ ├── components/
 │ │ ├── TaskCard.jsx
@@ -98,7 +98,7 @@ frontend/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/task-management-app.git
+git clone https://github.com/bazedgul/task-management-app.git
 cd task-management-app
 
 
@@ -116,10 +116,10 @@ MONGODB_URI=your-mongodb-atlas-uri
 
 
 💻 Frontend Setup
--> cd Frontend/task-management-app
+-> cd Frontend/
 -> npm install
 
-## Create .env file in Frontend/task-management-app:
+## Create .env file in Frontend/:
 VITE_API_BASE_URL=http://localhost:5000/api/
 
 ## Run Frontend
